@@ -1,4 +1,4 @@
-package org.sang;
+package org.sang.Entity;
 
 /**
  * Created by sang on 16-12-22.
