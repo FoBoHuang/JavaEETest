@@ -1,4 +1,4 @@
-package org.sang;
+package org.sang.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;

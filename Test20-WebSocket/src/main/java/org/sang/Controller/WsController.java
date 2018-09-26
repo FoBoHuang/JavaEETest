@@ -11,6 +11,8 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 public class WsController {
+
+    /*@SendTo注解表示当服务器有消息需要推送的时候，会对订阅了@SendTo中路径的浏览器发送消息*/
     @MessageMapping("/welcome")
     @SendTo("/topic/getResponse")
     public ResponseMessage say(RequestMessage message) {
